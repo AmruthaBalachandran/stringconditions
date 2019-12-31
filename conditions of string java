@@ -1,0 +1,79 @@
+// create a function to check the given string contains UPPER case char or not
+
+public class MyStringOperation {
+	
+	
+	String  hasUpper(String data)
+	{
+		char[] chars = data.toCharArray();
+		for(int i=0;i<chars.length-1;i++)
+		{if(chars[i]>=65 && chars[i]<=90)
+			{return "yes";}
+		}
+		return "no";
+	}
+	
+			
+			
+			
+			public static void main(String[] args) {
+				
+				MyStringOperation mystringoperation=new MyStringOperation();
+				System.out.println(mystringoperation.hasUpper("sonu"));
+
+}
+
+}
+
+
+
+//string has number
+
+public class MyOtherString {
+
+	String  hasUpper(String data)
+	{
+		char[] chars = data.toCharArray();
+		for(int i=0;i<chars.length;i++)
+		{if(chars[i]>=48 && chars[i]<=57)
+			{return "yes";}
+		}
+		return "no";
+	}
+	
+			
+			
+			
+			public static void main(String[] args) {
+				
+				MyOtherString myotherstring=new MyOtherString();
+				System.out.println(myotherstring.hasUpper("amm"));
+
+}	
+	
+
+ 
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+	
